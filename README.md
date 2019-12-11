@@ -43,10 +43,13 @@ $ docker run ngboost-explore
 $ git clone https://github.com/benbenbang/ngboost-explore.git
 $ cd ngboost-explore
 
-# Don't forget to ctivate your test environment first
+# Don't forget to activate your test environment first
 $ pip install -r requirements.txt
 $ pip install --upgrade git+https://github.com/stanfordmlgroup/ngboost.git
 
+# You will need two environment variables before you run the calcu
+$ export SEED=5566
+$ export NUM_PLOTS=4
 $ python src/benchmark.py
 ```
 
