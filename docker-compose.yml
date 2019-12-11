@@ -1,0 +1,10 @@
+version: '3'
+services:
+    ngboost-explore:
+        build: .
+        image: ngboost_explore
+        volumes:
+            - ./src:/workplace
+        environment:
+            - SEED=5566
+            - NUM_PLOTS=4

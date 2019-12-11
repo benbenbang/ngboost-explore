@@ -1,0 +1,8 @@
+numpy==1.17.4
+tqdm==4.39.0
+lightgbm==2.3.1
+matplotlib==3.1.2
+prettytable==0.7.2
+seaborn==0.9.0
+scikit_learn==0.22
+xgboost==0.90
